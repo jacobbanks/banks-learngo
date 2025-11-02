@@ -8,6 +8,7 @@
 
 package main
 
+import ("fmt")
 // ---------------------------------------------------------
 // EXERCISE: Try the scopes
 //
@@ -29,4 +30,7 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	fmt.Printf("outerScope: %d \n", packageScope)
+	scopeTest()	
+	fmt.Printf("outerScope: %d \n", packageScope)
 }

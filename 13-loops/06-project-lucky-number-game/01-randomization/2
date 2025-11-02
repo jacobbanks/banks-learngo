@@ -37,7 +37,7 @@ func main() {
 			break
 		}
 		if mid <= target {
-			n = mid + 1
+			n = mid
 		} else {
 			upper = mid
 		}

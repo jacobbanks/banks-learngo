@@ -8,6 +8,10 @@
 
 package main
 
+import (
+	"fmt"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Shy Semicolons
 //
@@ -19,4 +23,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	fmt.Println("This is a semicolon")
+	fmt.Println("test.")
 }

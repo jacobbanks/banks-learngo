@@ -14,10 +14,11 @@ import (
 
 func main() {
 	fmt.Println("Hello!")
+	tst := 6
 
 	// Statements change the execution flow
 	// Especially the control flow statements like `if`
-	if 5 > 1 {
+	if tst > 8 {
 		fmt.Println("bigger")
 	}
 }
